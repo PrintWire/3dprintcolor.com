@@ -1,0 +1,183 @@
+baseURL = "https://3dprintcolor.com/"
+languageCode = "en-us"
+title = "3D Print Color"
+theme = "printwire"
+
+[params]
+tagline       = "Full-colour additive manufacturing — photorealistic multi-colour parts, CMYK binder jetting, and colour-matched prototypes for product design and communication."
+description   = "3D Print Color covers full-colour additive manufacturing — from HP Multi Jet Fusion colour and Mimaki 3DUJ inkjet to Stratasys J series multi-material colour printing for product design and visual communication."
+keywords      = "full colour 3D printing, CMYK 3D print, multi colour AM, photorealistic 3D print, colour prototype, binder jet colour printing, J55 3D print"
+logoEmoji     = "🎨"
+contactEmail  = "maxdavisgroup@gmail.com"
+footerServicesLabel = "Services"
+
+colorPrimary      = "#d946ef"
+colorPrimaryDark  = "#c026d3"
+colorPrimaryLight = "#e879f9"
+colorBgDark       = "#0a030f"
+colorBgSection    = "#0e0518"
+colorBgCard       = "#150722"
+colorBgCardHover  = "#1c0a2e"
+
+fontPrimary   = "Josefin+Sans"
+fontSecondary = "Source+Sans+3"
+
+newsFallbackImages = ["https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"]
+
+heroEyebrow  = "Full-Colour Additive Manufacturing"
+heroTitle    = "3D Print <em>Color</em>"
+heroSubtitle = "Full-colour additive manufacturing — photorealistic multi-colour parts, CMYK binder jetting, and colour-matched prototypes for product design and communication."
+heroCta1Text = "Explore Services"
+heroCta1URL  = "/services/"
+heroCta2Text = "Get a Quote"
+heroCta2URL  = "/contact/"
+heroImage    = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
+
+overviewTitle   = "Photorealistic Parts in One Print"
+overviewText    = "16 million colours in a single print run — binder jetting and inkjet multi-material systems produce photorealistic prototypes, anatomical models, and communication props without painting."
+overviewBtnText = "View Services"
+overviewBtnURL  = "/services/"
+
+applicationsTitle = "Industries We Serve"
+servicesTitle    = "3D Print Color Services"
+servicesSubtitle = "Full-colour additive manufacturing — photorealistic multi-colour parts, CMYK binder jetting, and colour-matched prototypes for product design and communication."
+clusterTitle = "Related 3D Printing Resources"
+newsletterTitle = "Industry Updates to Your Inbox"
+newsletterText  = "Research breakthroughs and industry news — delivered monthly."
+ctaTitle   = "Start Your Project"
+ctaText    = "Full-colour additive manufacturing — photorealistic multi-colour parts, CMYK binder jetting, and colour-matched prototypes for product design and communication."
+ctaBtnText = "Get in Touch"
+ctaBtnURL  = "/contact/"
+
+[[params.stats]]
+count  = 16
+suffix = "M"
+label  = "Colours Available (Inkjet)"
+
+[[params.stats]]
+count  = 100
+suffix = "µm"
+label  = "Voxel Resolution"
+
+[[params.stats]]
+count  = 24
+suffix = "hr"
+label  = "Colour Prototype Turnaround"
+
+[[params.stats]]
+count  = 60
+suffix = "%"
+label  = "Faster Than Painting"
+
+
+[[params.applications]]
+title       = "Product Design Prototypes"
+description = "Photorealistic colour-matched models for consumer product design, UX research, and retail presentation."
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
+
+[[params.applications]]
+title       = "Medical & Anatomical"
+description = "Full-colour anatomical models for surgical planning, medical education, and patient communication."
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
+
+[[params.applications]]
+title       = "Architectural Visualisation"
+description = "Colour-accurate building models, master plans, and interior design mock-ups."
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
+
+[[params.applications]]
+title       = "Marketing & Communication"
+description = "Brand-colour accurate display models, packaging prototypes, and point-of-sale props."
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=1920&q=80"
+
+
+[[params.servicesPreview]]
+icon        = "🎨"
+title       = "Binder Jet Colour Printing"
+description = "HP Multi Jet Fusion and ExOne binder jetting — 100µm resolution, millions of colours, powder-supported complex geometry."
+
+[[params.servicesPreview]]
+icon        = "◎"
+title       = "Inkjet Multi-Material"
+description = "Stratasys J55 and J850 — full-colour photopolymer with simultaneous rigid and flexible material printing."
+
+[[params.servicesPreview]]
+icon        = "✨"
+title       = "Colour Matching Service"
+description = "Pantone and RAL colour-matched prototypes — verified against physical colour standards for brand-accurate models."
+
+[[params.servicesPreview]]
+icon        = "🔬"
+title       = "Medical Colour Models"
+description = "Colour-segmented anatomical models from MRI/CT data — bone, soft tissue, and vascular in a single print."
+
+
+[[params.services]]
+name        = "Binder Jet Colour Printing"
+description = "HP Multi Jet Fusion and ExOne binder jetting — 100µm resolution, millions of colours, powder-supported complex geometry."
+icon        = "🎨"
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&q=80"
+
+[[params.services]]
+name        = "Inkjet Multi-Material"
+description = "Stratasys J55 and J850 — full-colour photopolymer with simultaneous rigid and flexible material printing."
+icon        = "◎"
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&q=80"
+
+[[params.services]]
+name        = "Colour Matching Service"
+description = "Pantone and RAL colour-matched prototypes — verified against physical colour standards for brand-accurate models."
+icon        = "✨"
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&q=80"
+
+[[params.services]]
+name        = "Medical Colour Models"
+description = "Colour-segmented anatomical models from MRI/CT data — bone, soft tissue, and vascular in a single print."
+icon        = "🔬"
+image       = "https://images.unsplash.com/photo-1541701494587-cb58502866ab?w=800&q=80"
+
+
+[[params.clusterLinks]]
+name        = "3dprintcolor.com"
+url         = "https://3dprintcolor.com"
+description = "Full-colour 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintceramic.com"
+url         = "https://3dprintceramic.com"
+description = "Ceramic 3D printing"
+
+[[params.clusterLinks]]
+name        = "3dprintjewelry.com"
+url         = "https://3dprintjewelry.com"
+description = "Jewelry 3D printing"
+
+[[params.clusterLinks]]
+name        = "sendcutship.com"
+url         = "https://sendcutship.com"
+description = "Custom manufacturing"
+
+[[menu.main]]
+name = "Home"
+url  = "/"
+weight = 1
+[[menu.main]]
+name = "About"
+url  = "/about/"
+weight = 2
+[[menu.main]]
+name = "Articles"
+url  = "/articles/"
+weight = 3
+[[menu.main]]
+name = "Services"
+url  = "/services/"
+weight = 4
+[[menu.main]]
+name = "Contact"
+url  = "/contact/"
+weight = 5
+[[menu.main]]
+name = "Advertise"
+url  = "/advertise/"
+weight = 6
