@@ -771,3 +771,70 @@ h4 { font-size: 0.85rem; text-transform: uppercase; letter-spacing: 0.1em; color
   --accent: #0091AC; --bg: #F6FAFB; --bg-surface: #FFFFFF; --bg-card: #FFFFFF;
   --text: #14181B; --heading: #0A0D10; --border: rgba(20,24,27,0.10);
 } }
+
+/* ── CMYK signature treatment (3D Print Color) ─────────── */
+.cmyk-c { color: #00BCD4; }
+.cmyk-m { color: #E91E63; }
+.cmyk-y { color: #FFC107; }
+.cmyk-k { color: var(--heading); }
+
+/* Two-column signature hero (restored from approved mockup) */
+.ed-hero-split {
+  display: grid;
+  grid-template-columns: 1fr 420px;
+  gap: 2.5rem;
+  align-items: center;
+  background: linear-gradient(135deg, var(--bg-card) 0%, var(--bg) 65%);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 2.75rem 2.5rem;
+  margin-bottom: 2.5rem;
+  position: relative;
+  overflow: hidden;
+}
+.ed-hero-split::before {
+  content: ''; position: absolute; top: 0; left: 0; right: 0; height: 3px;
+  background: linear-gradient(90deg, #00BCD4 0%, #E91E63 50%, #FFC107 100%);
+}
+.ed-hero-split h1 {
+  font-size: 2.4rem;
+  line-height: 1.15;
+  margin: 0.75rem 0 0.5rem;
+}
+.ed-hero-split .ed-hero-excerpt { max-width: none; margin-top: 1rem; }
+.ed-hero-cta {
+  display: inline-block;
+  margin-top: 1.5rem;
+  padding: 0.7rem 1.6rem;
+  border-radius: var(--radius-sm);
+  background: #00BCD4;
+  color: #04222a;
+  font-weight: 600;
+  font-size: 0.9rem;
+  transition: transform var(--transition), box-shadow var(--transition);
+}
+.ed-hero-cta:hover { transform: translateY(-2px); box-shadow: 0 6px 20px rgba(0,188,212,0.35); }
+.ed-hero-visual {
+  position: relative;
+  border-radius: var(--radius);
+  overflow: hidden;
+  aspect-ratio: 3/2;
+}
+.ed-hero-visual img { width: 100%; height: 100%; object-fit: cover; display: block; }
+.ed-hero-visual::after {
+  content: ''; position: absolute; inset: 0;
+  background: linear-gradient(135deg, rgba(0,188,212,0.30) 0%, rgba(233,30,99,0.22) 50%, rgba(255,193,7,0.28) 100%);
+  mix-blend-mode: screen;
+}
+
+/* CMYK-cycled stat numbers */
+.ed-stat:nth-child(1) .ed-stat-value { color: #00BCD4; }
+.ed-stat:nth-child(2) .ed-stat-value { color: #E91E63; }
+.ed-stat:nth-child(3) .ed-stat-value { color: #FFC107; }
+.ed-stat:nth-child(4) .ed-stat-value { color: #00BCD4; }
+
+@media (max-width: 768px) {
+  .ed-hero-split { grid-template-columns: 1fr; padding: 1.75rem 1.5rem; }
+  .ed-hero-split h1 { font-size: 1.7rem; }
+  .ed-hero-visual { order: -1; }
+}
