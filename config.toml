@@ -12,7 +12,7 @@ title = "3D Print Color"
 
 [params]
 siteName      = "3D Print Color"
-logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent">COLOR</span>'
+logoHtml      = '3D&nbsp;PRINT&nbsp;<span class="ed-logo-accent"><span class="cmyk-c">C</span><span class="cmyk-m">O</span><span class="cmyk-y">L</span><span class="cmyk-k">OR</span></span>'
 tagline       = "Full-color and multi-material additive manufacturing."
 description   = "3D Print Color — full-color and multi-material additive manufacturing: PolyJet, binder jetting, CMYK voxel control, multicolor materials, and a directory connecting designers to color suppliers."
 keywords      = "full-color 3D printing, PolyJet, multi-material additive manufacturing, CMYK voxel printing, multicolor materials, binder jetting color, color service bureau"
